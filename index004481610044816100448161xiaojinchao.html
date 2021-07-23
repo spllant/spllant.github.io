@@ -1,0 +1,219 @@
+﻿
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1">
+    <meta charset="UTF-8">
+    <title>查询植物检疫证书</title>
+
+    <style type="text/css">
+        body
+        {
+            width: 1280px;
+            height: 1810px;
+            margin:auto;
+            background-image: url(http://www.cloudquery.com.cn/images/bg2.jpg);
+            background-attachment: scroll;
+            background-repeat:no-repeat;
+        }
+        .TextBox
+        {
+            font-size: 24px;
+            font-weight: bolder;
+            color: Blue;
+            text-align: left;
+            border-color:transparent;
+            background-color:transparent;
+        }
+        .lbl
+        {
+            font-size:24px;
+            font-weight:bolder;
+            color:Blue;
+            text-align:left;
+        }
+        .lblCount
+        {
+            font-size:24px;
+            font-weight:bolder;
+            color:Blue;
+            text-align:right;
+        }
+        .datatable
+        {
+            border: 0px solid #ACD6EF;
+            width:100%;
+        }
+        .datatable th
+        {
+	        border: solid 0px #DBEEFE;
+	        text-align:center;
+        }
+        .datatable td
+        {
+            border:solid 0px #ACD6FF;
+        }
+    </style>
+</head>
+<body>
+    <form method="post" action="./GetHgzInfo.aspx?id=146418699" id="form1">
+<div class="aspNetHidden">
+</div>
+
+<div class="aspNetHidden">
+</div>
+    <input type="hidden" name="HiddenHgzid" id="HiddenHgzid" value="146418699" />
+    <input type="hidden" name="HiddenJyzxh" id="HiddenJyzxh" value="豫" />
+    <input type="hidden" name="HiddenZsno" id="HiddenZsno" value="NO:00448162" />
+    <div style="width:100%;margin-left: 20px;">
+    <div id="Div1" style="margin-top: 160px; margin-left: 790px; width: 80px; z-index: 100;
+        position: absolute; top: -1px; left: 0px;">
+        <input name="txtSw" type="text" value="(省内)" readonly="readonly" id="txtSw" class="TextBox" style="text-align: center;" />
+    </div>
+    <div id="Div2" style="margin-top: 310px; margin-left: 790px; width: 34px; z-index: 101;
+        position: absolute; top: -1px; left: 0px;">
+        <input name="txtJc" type="text" value="豫" readonly="readonly" id="txtJc" class="TextBox" style="text-align: center;" />
+    </div>
+    <div id="Div3" style="margin-top: 310px; margin-left: 930px; width: 245px; z-index: 102;
+        position: absolute;">
+        <input name="txtZsno" type="text" value="NO:00448162" readonly="readonly" id="txtZsno" class="TextBox" />
+    </div>
+    <div id="Div4" style="margin-top: 355px; margin-left: 322px; width: 840px; z-index: 103;
+        position: absolute;">
+        <input name="txtDyName" type="text" value="汪家祥" readonly="readonly" id="txtDyName" class="TextBox" style="width:100%;" />
+    </div>
+    <div id="Div5" style="margin-top: 405px; margin-left: 322px; width: 840px; z-index: 104;
+        position: absolute;">
+        <input name="txtDyAdd" type="text" value="河南省信阳市潢川县" readonly="readonly" id="txtDyAdd" class="TextBox" style="width:100%;" />
+    </div>
+    <div id="Div6" style="margin-top: 452px; margin-left: 465px; width: 170px; z-index: 105;
+        position: absolute;">
+        <input name="txtCyName" type="text" value="汪家祥" readonly="readonly" id="txtCyName" class="TextBox" style="width:100%;" />
+    </div>
+    <div id="Div7" style="margin-top: 452px; margin-left: 785px; width: 370px; z-index: 106;
+        position: absolute;">
+        <input name="txtCyTel" type="text" value="13939157778" readonly="readonly" id="txtCyTel" class="TextBox" style="width:100%;" />
+    </div>
+    <div id="Div8" style="margin-top: 501px; margin-left: 465px; width: 690px; z-index: 107;
+        position: absolute;">
+        <input name="txtCyNo" type="text" value="411526198910207037" readonly="readonly" id="txtCyNo" class="TextBox" style="width:100%;" />
+    </div>
+    <div id="Div9" style="margin-top: 550px; margin-left: 322px; width: 840px; z-index: 108;
+        position: absolute;">
+        <input name="txtShName" type="text" value="王林" readonly="readonly" id="txtShName" class="TextBox" style="width:100%;" />
+    </div>
+    <div id="Div10" style="margin-top: 597px; margin-left: 322px; width: 840px; z-index: 109;
+        position: absolute;">
+        <input name="txtShAdd" type="text" value="河南省郑州市金水区贾鲁河" readonly="readonly" id="txtShAdd" class="TextBox" style="width:100%;" />
+    </div>
+    <div id="Div11" style="margin-top: 647px; margin-left: 462px; width: 170px; z-index: 110;
+        position: absolute;">
+        <input name="txtShLxr" type="text" value="王林" readonly="readonly" id="txtShLxr" class="TextBox" style="width:100%;" />
+    </div>
+    <div id="Div12" style="margin-top: 647px; margin-left: 785px; width: 370px; z-index: 111;
+        position: absolute;">
+        <input name="txtShTel" type="text" value="15137950077" readonly="readonly" id="txtShTel" class="TextBox" style="width:100%;" />
+    </div>
+    <div id="Div13" style="margin-top: 697px; margin-left: 462px; width: 690px; z-index: 112;
+        position: absolute;">
+        <input name="txtShBodyNo" type="text" value="410321196605292029" readonly="readonly" id="txtShBodyNo" class="TextBox" style="width:100%;" />
+    </div>
+    <div id="Div14" style="margin-top: 745px; margin-left: 322px; width: 840px; z-index: 113;
+        position: absolute;">
+        <input name="txtPlSource" type="text" value="河南省信阳市潢川县" readonly="readonly" id="txtPlSource" class="TextBox" style="width:100%;" />
+    </div>
+    <div id="Div15" style="margin-top: 793px; margin-left: 322px; width: 840px; z-index: 114;
+        position: absolute;">
+        <input name="txtYsName" type="text" value="汽车（车牌号：无）" readonly="readonly" id="txtYsName" class="TextBox" style="width:100%;" />
+    </div>
+    <div id="Div16" style="margin-top: 839px; margin-left: 355px; width: 370px; z-index: 115;
+        position: absolute;">
+        <input name="txtYsFrom" type="text" value="河南省信阳市潢川县" readonly="readonly" id="txtYsFrom" class="TextBox" style="width:100%;" />
+    </div>
+    <div id="Div17" style="margin-top: 839px; margin-left: 765px; width: 370px; z-index: 116;
+        position: absolute;">
+        <input name="txtYsTo" type="text" value="河南省郑州市金水区" readonly="readonly" id="txtYsTo" class="TextBox" style="width:100%;" />
+    </div>
+    <div id="Div18" style="margin-top: 887px; margin-left: 355px; width: 145px; z-index: 117;
+        position: absolute;">
+        <input name="txtDateFromYear" type="text" value="贰零壹捌" readonly="readonly" id="txtDateFromYear" class="TextBox" style="width:100%;" />
+    </div>
+    <div id="Div19" style="margin-top: 887px; margin-left: 525px; width: 102px; z-index: 118;
+        position: absolute;">
+        <input name="txtDateFromMonth" type="text" value="壹拾贰" readonly="readonly" id="txtDateFromMonth" class="TextBox" style="width:100%;" />
+    </div>
+    <div id="Div20" style="margin-top: 887px; margin-left: 625px; width: 102px; z-index: 119;
+        position: absolute;">
+        <input name="txtDateFromDay" type="text" value="壹拾叁" readonly="readonly" id="txtDateFromDay" class="TextBox" style="width:100%;" />
+    </div>
+    <div id="Div21" style="margin-top: 887px; margin-left: 770px; width: 145px; z-index: 120;
+        position: absolute;">
+        <input name="txtDateToYear" type="text" value="贰零壹捌" readonly="readonly" id="txtDateToYear" class="TextBox" style="width:100%;" />
+    </div>
+    <div id="Div22" style="margin-top: 887px; margin-left: 925px; width: 102px; z-index: 121;
+        position: absolute;">
+        <input name="txtDateToMonth" type="text" value="壹拾贰" readonly="readonly" id="txtDateToMonth" class="TextBox" style="width:100%;" />
+    </div>
+    <div id="Div23" style="margin-top: 887px; margin-left: 1030px; width: 105px; z-index: 122;
+        position: absolute;">
+        <input name="txtDateToDay" type="text" value="壹拾玖" readonly="readonly" id="txtDateToDay" class="TextBox" style="width:100%;" />
+    </div>
+    <div id="Div24" style="margin-top:940px; margin-left: 85px; width: 1070px; z-index: 123;
+        position: absolute; height: 280px; vertical-align:top;">
+        <div>
+
+	<table class="datatable" cellspacing="0" rules="all" border="1" id="gvHgzItem" style="width:1082px;border-collapse:collapse;table-layout: fixed; border-color:transparent; border:0px;">
+		<tr>
+			<th scope="col" style="height:45px;width:245px;">&nbsp;</th><th scope="col" style="width:213px;">&nbsp;</th><th scope="col" style="width:105px;">&nbsp;</th><th scope="col" style="width:112px;">&nbsp;</th><th scope="col" style="width:110px;">&nbsp;</th><th scope="col" style="width:115px;">&nbsp;</th><th scope="col" style="width:182px;">&nbsp;</th>
+		
+                               
+                            
+                                </tr>
+        <tr style="white-space:nowrap;">
+			<td style="height:46px;">
+                        <span id="gvHgzItem_lblPlantName_0" class="lbl">紫薇丛生</span>
+                    </td><td>
+                        <span id="gvHgzItem_lblBreed_0" class="lbl">苗木</span>
+                    </td><td>
+                        <span id="gvHgzItem_lblNorms_0" class="lbl" style="font-size:14px;">冠幅2.0m</span>
+                    </td><td>
+                        <span id="gvHgzItem_lblUnits_0" class="lbl">株</span>
+                    </td><td>
+                        <span id="gvHgzItem_lblAmount_0" class="lblCount">136</span>
+                    </td><td>
+                        <span id="gvHgzItem_lblRmk_0" class="lbl">散装</span>
+                    </td><td>
+                        
+                    </td>
+                                
+                                 
+	</table>
+</div>
+    </div>
+    <div id="Div25" style="margin-top:1234px; margin-left: 610px; width: 500px; z-index: 124;
+        position: absolute;">
+        <input name="txtShType" type="text" value="现场检疫合格" readonly="readonly" id="txtShType" class="TextBox" style="width:100%;text-align: center;" />
+    </div>
+    <div id="Div26" style="margin-top:1500px; margin-left: 250px; width: 180px; z-index: 125;
+        position: absolute;">
+        <input name="txtQfMan" type="text" value="熊涛" readonly="readonly" id="txtQfMan" class="TextBox" style="width:100%;text-align: left;" />
+    </div>
+    <div id="Div27" style="margin-top:1540px; margin-left: 890px; width: 85px; z-index: 126;
+        position: absolute;">
+        <input name="txtQfYear" type="text" value="2018"" readonly="readonly" id="txtQfYear" class="TextBox" style="width:100%;text-align: center;" />
+    </div>         
+    <div id="Div28" style="margin-top:1540px; margin-left: 990px; width:45px; z-index: 127;
+        position: absolute;">
+        <input name="txtQfMonth" type="text" value="12" readonly="readonly" id="txtQfMonth" class="TextBox" style="width:100%;text-align: center;" />
+    </div>
+    <div id="Div29" style="margin-top:1540px; margin-left: 1043px; width:55px; z-index: 128;
+        position: absolute;">
+        <input name="txtQfDay" type="text" value="13" readonly="readonly" id="txtQfDay" class="TextBox" style="width:100%;text-align: center;" />
+    </div>
+    <div id="Div30" style="margin-top:1545px; margin-left: 400px; width:150px; z-index: 129;
+        position: absolute;">
+        
+    </div>
+    </div>
+    </form>                                                       
+</body>
+</html>
